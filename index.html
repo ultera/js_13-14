@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>js_13-14</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/jquery-1.12.3.min.js"></script>
+  <script src="js/jquery.tmpl.min.js"></script>
+  <script src="js/script.js"></script>
+</head>
+<body>
+  <div class="container">
+
+
+    <div class="header"><h4>Test IQ</h4></div>
+    <script type="text/template" id="tmpl">
+      <div class="box">
+        <h4 class="question${number}">${number + 1}. ${question}</h4>
+        {{each answers}}
+          <div class="checkbox">
+            <label class=label:${number}-${$index}>
+              <input type="checkbox" class=${number}-${$index} value="">${$value}
+            </label>
+          </div>
+        {{/each}}
+    </div>
+    </script>
+
+  </div>
+</body>
+</html>
