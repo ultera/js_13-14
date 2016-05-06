@@ -19,13 +19,20 @@
         <h4 class="question${number}">${number + 1}. ${question}</h4>
         {{each answers}}
           <div class="checkbox">
-            <label class=label:${number}-${$index}>
+            <label>
               <input type="checkbox" class=${number}-${$index} value="">${$value}
             </label>
           </div>
         {{/each}}
     </div>
     </script>
+
+    <div class="modal">
+      <div class="modal-close"></div>
+      <h5>Your results:</h5>
+      <p class="result"></p>
+    </div>
+    <div class="overlay"></div>
 
   </div>
 </body>
