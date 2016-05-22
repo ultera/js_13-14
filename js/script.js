@@ -33,12 +33,12 @@ $(function() {
     {number: 5,
     question: "Which one of the five choices makes the best comparison? Finger is to Hand as Leaf is to:",
     answers: ["Twig", "Tree", "Branch", "Blossom", "Bark", "I'm not sure"],
-    weight: [1, 0, 0, 0, 0, 1]}
+    weight: [1, 0, 0, 0, 0, 1]},
 
-    // {number: 6,
-    // question: "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
-    // answers: ["City", "Animal", "Ocean", "River", "Country", "I'm not sure"],
-    // weight: [0, 0, 1, 0, 0, 1]}
+    {number: 6,
+    question: "If you rearrange the letters 'CIFAIPC' you would have the name of a(n):",
+    answers: ["City", "Animal", "Ocean", "River", "Country", "I'm not sure"],
+    weight: [0, 0, 1, 0, 0, 1]}
   ];
 
   //........... LOCALSTORAGE ..............
